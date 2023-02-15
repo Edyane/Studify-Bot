@@ -24,7 +24,7 @@ const rest = new REST({version: "10"}).setToken(TOKEN);
 // deploy
 (async () => {
     try {
-        console.log(`Resentando ${commands.length} comandos...`)
+        console.log(`Resetando ${commands.length} comandos...`)
     
         // PUT
         const data = await rest.put(
