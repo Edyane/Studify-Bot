@@ -1,4 +1,4 @@
-# Studify Bot 🤖
+# Studify Bot
 
 <br>
 <img src="https://cdn.discordapp.com/attachments/884155938985111702/1075930107014815824/bot.PNG" width="850px">
