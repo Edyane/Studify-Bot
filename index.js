@@ -44,7 +44,9 @@ client.on(Events.InteractionCreate, async interaction =>{
             await interaction.reply("Documentação do Discord.js: https://discordjs.guide/#before-you-begin")
         } else if (selected == "reactjs"){
             await interaction.reply("Documentação do React.js: https://pt-br.reactjs.org")
-        }
+        } else if (selected == "vuejs"){
+            await interaction.reply("Documentação do Vue.js: https://vuejs.org/guide/introduction.html")
+        } 
     }
     if (!interaction.isChatInputCommand()) return
     const command = interaction.client.commands.get(interaction.commandName)
