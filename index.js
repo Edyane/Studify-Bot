@@ -46,7 +46,9 @@ client.on(Events.InteractionCreate, async interaction =>{
             await interaction.reply("Documentação do React.js: https://pt-br.reactjs.org")
         } else if (selected == "vuejs"){
             await interaction.reply("Documentação do Vue.js: https://vuejs.org/guide/introduction.html")
-        } 
+        } else if (selected == "angularjs"){
+            await interaction.reply("Documentação do Vue.js: https://angular.io/docs")
+        }
     }
     if (!interaction.isChatInputCommand()) return
     const command = interaction.client.commands.get(interaction.commandName)
