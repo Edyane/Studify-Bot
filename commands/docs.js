@@ -34,6 +34,11 @@ const row = new ActionRowBuilder()
                     label: "vue.js",
                     description: "Veja a documentação de Vue.js",
                     value: "vuejs"
+                },
+                {
+                    label: "angular.js",
+                    description: "Veja a documentação de Angular",
+                    value: "vuejs"
                 }
             )
     )
